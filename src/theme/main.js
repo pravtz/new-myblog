@@ -7,7 +7,10 @@ export default {
     backgroundAside: "#92CDC6",
 
     /**colors fonts aside */
+    iconSocial: "#FFF",
+    iconSocial_hover: "#224541",
     navbarMenu: "#fff",
+    navbarMenu_hover: "#224541",
     profileName: "#FFF",
     profileOccuparion: "#FFF",
   },

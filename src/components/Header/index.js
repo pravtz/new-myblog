@@ -9,6 +9,10 @@ const Header = () => {
   return (
     <>
       <S.WrapperAside>
+        <S.WrapperIcon>
+          <S.ClearIcon />
+        </S.WrapperIcon>
+
         <S.WrapperProfile>
           <S.WrapperImage>
             <ImageProfile />
@@ -24,19 +28,30 @@ const Header = () => {
           <S.MenuProfile>
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/">
+                  <S.HomeIcon />
+                  Home
+                </Link>
               </li>
               <li>
-                <Link to="/">Sobre</Link>
+                <Link to="/">
+                  <S.AboutIcon /> Sobre
+                </Link>
               </li>
               <li>
-                <Link to="/">Categoria</Link>
+                <Link to="/">
+                  <S.CategoryIcon /> Categoria
+                </Link>
               </li>
               <li>
-                <Link to="/">Portifólio</Link>
+                <Link to="/">
+                  <S.PortifolioIcon /> Portifólio
+                </Link>
               </li>
               <li>
-                <Link to="/">Contato</Link>
+                <Link to="/">
+                  <S.ContactIcon /> Contato
+                </Link>
               </li>
             </ul>
           </S.MenuProfile>
