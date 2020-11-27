@@ -43,6 +43,7 @@ export const ContentBox = styled.p`
   font-family: ${props => props.theme.fonts.textBox};
   font-weight: 700;
   font-size: 26px;
+  text-transform: uppercase;
 `
 export const WrapperContent = styled.div`
   display: flex;
@@ -51,6 +52,7 @@ export const WrapperContent = styled.div`
   margin-top: ${props => props.theme.definitions.spaces};
   margin-right: ${props => props.theme.definitions.spaces};
   margin-bottom: ${props => props.theme.definitions.spaces};
+  width: 100%;
 `
 export const Title = styled.h1`
   font-family: ${props => props.theme.fonts.titleCard};
