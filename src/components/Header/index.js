@@ -34,22 +34,22 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/">
+                <Link to="/about/">
                   <S.AboutIcon /> Sobre
                 </Link>
               </li>
               <li>
-                <Link to="/">
+                <Link to="/category/">
                   <S.CategoryIcon /> Categoria
                 </Link>
               </li>
               <li>
-                <Link to="/">
+                <Link to="/portifolio/">
                   <S.PortifolioIcon /> Portifólio
                 </Link>
               </li>
               <li>
-                <Link to="/">
+                <Link to="/contact/">
                   <S.ContactIcon /> Contato
                 </Link>
               </li>
