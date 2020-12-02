@@ -54,6 +54,16 @@ table {
 
 body {
 	background-color: #FeFeFe;
+
 }
+
+/* //test box layout responsive
+div{border: 1px solid black;}
+header{border: 1px solid red;}
+main{border: 1px solid orange;}
+aside{border: 1px solid green;}
+footer{border: 1px solid blue;} */
+
+
 `
 export default GlobalStyles
