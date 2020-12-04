@@ -117,6 +117,7 @@ export const ContactIcon = styled(Contact)`
 `
 export const ClearIcon = styled(Clear)`
   ${icons}
+  visibility:hidden;
 `
 export const MenuIcon = styled(Menu)`
   ${icons}
