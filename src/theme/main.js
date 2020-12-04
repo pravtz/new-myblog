@@ -20,6 +20,13 @@ export default {
     bgBox: "#92CDC6",
     bgBoxHover: "#224541",
     text: "#224541",
+
+    /**color of posts */
+    titlePost: "#224541",
+    subtitlesPosts: "#558",
+    datePost: "#777",
+    descriptionPost: "#777",
+    bodytextPost: "#888",
   },
   /**
    * fonts from fonts.google.com

@@ -12,18 +12,21 @@ export const PostTitle = styled.h1`
   font-weight: 700;
   padding: 0 1.4rem;
   margin: 1rem auto;
+  color: ${props => props.theme.colors.titlePost};
 `
 
 export const PostDescription = styled.h2`
   font-size: 2rem;
   font-weight: 200;
   padding: 0 1.4rem;
+  color: ${props => props.theme.colors.descriptionPost};
 `
 
 export const PostDate = styled.p`
   font-size: 1.1rem;
   font-weight: 100;
   padding: 0 1.4rem;
+  color: ${props => props.theme.colors.datePost};
 `
 
 export const MainContent = styled.section`
@@ -49,6 +52,7 @@ export const MainContent = styled.section`
   }
   p {
     margin: 0 auto 1.6rem;
+    color: ${props => props.theme.colors.bodytextPost};
   }
   h1,
   h2,
@@ -56,6 +60,7 @@ export const MainContent = styled.section`
   h4,
   h5 {
     margin: 2.4rem auto 1rem;
+    color: ${props => props.theme.colors.subtitlesPosts};
   }
   ul,
   ol {
@@ -183,5 +188,16 @@ export const MainContent = styled.section`
   }
   td {
     border-left: 1px dotted #223;
+  }
+
+  .gatsby-highlight {
+    background-color: #c7e5e2;
+    border-radius: ${props => props.theme.definitions.borderRadius};
+  }
+  .gatsby-highlight pre[class*="language-"] {
+    background-color: transparent;
+    .comment {
+      color: #777;
+    }
   }
 `
