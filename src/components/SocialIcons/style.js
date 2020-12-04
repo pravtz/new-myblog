@@ -16,7 +16,7 @@ export const SocialLinksList = styled.ul`
     margin: auto;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid white;
+    
 `}
 `
 export const SocialLinksIten = styled.li`
