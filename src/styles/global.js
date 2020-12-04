@@ -50,7 +50,7 @@ table {
 	border-spacing: 0;
 }
 /**--------------------- style glogal ------------------------- */
-@import url(${props => props.theme.fonts.urlFonts});
+
 
 body {
 	background-color: #FeFeFe;
