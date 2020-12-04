@@ -30,27 +30,31 @@ const Header = () => {
               <li>
                 <Link to="/">
                   <S.HomeIcon />
-                  Home
+                  <S.NameIcon>Home</S.NameIcon>
                 </Link>
               </li>
               <li>
                 <Link to="/about/">
-                  <S.AboutIcon /> Sobre
+                  <S.AboutIcon />
+                  <S.NameIcon>Sobre</S.NameIcon>
                 </Link>
               </li>
               <li>
                 <Link to="/category/">
-                  <S.CategoryIcon /> Categoria
+                  <S.CategoryIcon />
+                  <S.NameIcon>Categoria</S.NameIcon>
                 </Link>
               </li>
               <li>
                 <Link to="/portifolio/">
-                  <S.PortifolioIcon /> Portifólio
+                  <S.PortifolioIcon />
+                  <S.NameIcon>Portifólio</S.NameIcon>
                 </Link>
               </li>
               <li>
                 <Link to="/contact/">
-                  <S.ContactIcon /> Contato
+                  <S.ContactIcon />
+                  <S.NameIcon>Contato</S.NameIcon>
                 </Link>
               </li>
             </ul>

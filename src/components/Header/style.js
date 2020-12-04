@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import { pxToEm } from "../../styles/mixins"
+import media from "styled-media-query"
 
 import {
   Home,
@@ -15,8 +16,15 @@ import {
 
 export const WrapperAside = styled.aside`
   background-color: #92cdc6;
-  width: 413px;
+  width: 70px;
   height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  ${media.greaterThan("large")`
+  width: 360px;
+  `}
 `
 export const WrapperIcon = styled.div`
   text-align: right;
@@ -38,11 +46,21 @@ export const NameProfile = styled.h1`
   color: ${props => props.theme.colors.profileName};
   font-size: ${pxToEm("30")};
   font-weight: 700;
+  display: none;
+
+  ${media.greaterThan("large")`
+    display: block;
+  `}
 `
 export const OccupationProfile = styled.h2`
   font-family: ${props => props.theme.fonts.profileOccuparion};
   color: ${props => props.theme.colors.profileOccuparion};
   font-size: ${pxToEm("14")};
+  display: none;
+
+  ${media.greaterThan("large")`
+  display: block;
+`}
 `
 export const IconsProfile = styled.div``
 export const MenuProfile = styled.nav`
@@ -57,9 +75,23 @@ export const MenuProfile = styled.nav`
         :hover {
           color: ${props => props.theme.colors.navbarMenu_hover};
         }
+        ${media.greaterThan("large")`
+          display: flex;
+          justify-content: center;
+        `}
       }
     }
   }
+`
+export const NameIcon = styled.span`
+  display: none;
+
+  ${media.greaterThan("large")`
+    display:block ;
+    margin-left: 0.2em;
+
+
+  `}
 `
 const icons = () => {
   return `
