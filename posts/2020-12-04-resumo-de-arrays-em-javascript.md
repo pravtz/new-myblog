@@ -5,6 +5,8 @@ date: "2020-12-04 17:52:07"
 category: "PRO GRA MA ÇÃO"
 ---
 
+![codigo](/assets/img/code01.jpg)
+
 ## Conceito:
 Array é um objeto destinado a armazenar uma coleção ordenada de dados indexados sequencialmente apartir do zero.
 
