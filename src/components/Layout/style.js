@@ -3,9 +3,16 @@ import media from "styled-media-query"
 
 export const LayoutWrapper = styled.div`
   display: flex;
+  max-width: 100vw;
+  border: 1px solid orange;
 
   main {
-    margin: auto auto;
-    ${media.greaterThan("large")`margin-left: 360px;`}
+    max-width: 90vw;
+    margin: 0 auto;
+    ${media.greaterThan("large")`
+      width:100vw;
+      margin-left: 360px;
+      border: 1px solid blue;
+    `}
   }
 `

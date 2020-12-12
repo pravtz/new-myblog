@@ -14,15 +14,17 @@ const BlogPost = ({ data }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description}
       />
-      <S.PostHeader>
-        <S.PostDate>{post.frontmatter.date}</S.PostDate>
-        <S.PostTitle>{post.frontmatter.title}</S.PostTitle>
-        <S.PostDescription>{post.frontmatter.description}</S.PostDescription>
-      </S.PostHeader>
+      <S.container>
+        <S.PostHeader>
+          <S.PostDate>{post.frontmatter.date}</S.PostDate>
+          <S.PostTitle>{post.frontmatter.title}</S.PostTitle>
+          <S.PostDescription>{post.frontmatter.description}</S.PostDescription>
+        </S.PostHeader>
 
-      <S.MainContent>
-        <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
-      </S.MainContent>
+        <S.MainContent>
+          <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
+        </S.MainContent>
+      </S.container>
     </Layout>
   )
 }
