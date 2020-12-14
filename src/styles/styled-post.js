@@ -3,7 +3,6 @@ import media from "styled-media-query"
 
 export const container = styled.div`
   max-width: 100%;
-  border: 1px solid red;
   margin: auto;
 
   ${media.greaterThan("large")`
@@ -245,24 +244,24 @@ export const MainContent = styled.section`
     max-width: 90%;
     margin: 10px auto;
     border-collapse: collapse;
-    border: 1px solid #334;
+    border: 1px solid #bbb;
   }
   thead th {
-    background-color: #224;
-    border: 1px solid #111;
+    background-color: #c7e5e2;
+    border: 1px solid #bbb;
   }
   th,
   td {
     padding: 1em;
     :hover {
-      background-color: #222;
+      background-color: #c7e5e2;
     }
   }
   td {
-    border-bottom: 1px dotted #223;
+    border-bottom: 1px dotted #bbb;
   }
   td {
-    border-left: 1px dotted #223;
+    border-left: 1px dotted #bbb;
   }
 
   .gatsby-highlight {
