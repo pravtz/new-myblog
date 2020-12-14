@@ -316,12 +316,7 @@ Exemplo 1:
 
     // retorna 14
 ```
-Nesse exemplo foi possivel ver que houve duas interações e o valor retornado foi 14, ao ver a tabela abaixo é possível compreender melhor:
-
-| Interação | v1 | v2 | ind | arr | retorno |
-|------|------|------|------|------|------|
-|1ª | 2 | 4 | 0 | [ 2,4,8 ] | 6 |
-|2ª | 6 | 8 | 1 | [ 2,4,8 ] | 14 |
+Nesse exemplo foi possivel ver que houve duas interações e o valor retornado foi 14.
 
 
 Exemplo 2 :

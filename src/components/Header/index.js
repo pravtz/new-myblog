@@ -33,30 +33,32 @@ const Header = () => {
                   <S.NameIcon>Home</S.NameIcon>
                 </Link>
               </li>
-              <li>
+              {/*  ------------- start -- temporarily hide ------------ */}
+              <li className="hide">
                 <Link to="/about/">
                   <S.AboutIcon />
                   <S.NameIcon>Sobre</S.NameIcon>
                 </Link>
               </li>
-              <li>
+              <li className="hide">
                 <Link to="/category/">
                   <S.CategoryIcon />
                   <S.NameIcon>Categoria</S.NameIcon>
                 </Link>
               </li>
-              <li>
+              <li className="hide">
                 <Link to="/portifolio/">
                   <S.PortifolioIcon />
                   <S.NameIcon>Portifólio</S.NameIcon>
                 </Link>
               </li>
-              <li>
+              <li className="hide">
                 <Link to="/contact/">
                   <S.ContactIcon />
                   <S.NameIcon>Contato</S.NameIcon>
                 </Link>
               </li>
+              {/*  ------------- end -- temporarily hide ------------ */}
             </ul>
           </S.MenuProfile>
         </S.WrapperProfile>

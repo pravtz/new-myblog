@@ -63,6 +63,7 @@ export const OccupationProfile = styled.h2`
 `}
 `
 export const IconsProfile = styled.div``
+
 export const MenuProfile = styled.nav`
   ul {
     li {
@@ -80,6 +81,9 @@ export const MenuProfile = styled.nav`
           justify-content: center;
         `}
       }
+    }
+    .hide {
+      visibility: hidden;
     }
   }
 `
