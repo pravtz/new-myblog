@@ -1,4 +1,4 @@
-export default {
+const main = {
   colors: {
     primary: "#92CDC6",
     secundary: "#224541",
@@ -61,3 +61,5 @@ export default {
     twoSpaces: "28px",
   },
 }
+
+export default main

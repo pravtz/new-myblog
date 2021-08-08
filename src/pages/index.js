@@ -5,7 +5,7 @@ import styled from "styled-components"
 import Layout from "../components/Layout"
 import Card from "../components/Card"
 
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const IndexPage = () => {
   const { allMarkdownRemark } = useStaticQuery(graphql`
@@ -32,7 +32,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="Home" />
+      <Seo title="Home" />
       <ContainerStyled>
         <WrapperCardStyled>
           {postList.map(
